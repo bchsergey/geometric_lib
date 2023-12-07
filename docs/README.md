@@ -25,27 +25,27 @@ Functions used to calculate the area and perimeter of geometric shapes(rectangle
 Description: calculates area of a circle with giving radius=r.
 
 Example:
-
+```
 from geometric_lib import circle
 
 r = 1.0
 print(area(r))
 
 '3.141592653589793'
-
+```
 - perimeter(r)
 
 Description: calculates perimeter of a circle with giving radius=r.
 
 Example:
-
+```
 from geometric_lib import circle
 
 r = 1.0
 print(perimeter(r))
 
 '6.283185307179586'
-
+```
 ### rectangle.py
 
 - area(a, b)
@@ -53,7 +53,7 @@ print(perimeter(r))
 Description: calculates area of a circle with given length=a and width=b.
 
 Example:
-
+```
 from geometric_lib import circle
 
 a = 1.0
@@ -62,13 +62,13 @@ b = 2.0
 print(area(a, b))
 
 '2.0'
-
+```
 - perimeter(a, b)
 
 Description: calculates perimeter of a circle with given length=a and width=b.
 
 Example:
-
+```
 from geometric_lib import circle
 
 a = 1.0
@@ -77,7 +77,7 @@ b = 2.0
 print(perimeter(a, b))
 
 '6.0'
-
+```
 ### square.py
 
 - area(a)
@@ -85,7 +85,7 @@ print(perimeter(a, b))
 Description: calculates area of a circle with given side=a.
 
 Example:
-
+```
 from geometric_lib import circle
 
 a = 1.0
@@ -93,13 +93,13 @@ a = 1.0
 print(area(a))
 
 '1.0'
-
+```
 - perimeter(a)
 
 Description: calculates perimeter of a circle with given side=a.
 
 Example:
-
+```
 from geometric_lib import circle
 
 a = 1.0
@@ -107,13 +107,14 @@ a = 1.0
 print(perimeter(a))
 
 '4.0'
-
+```
 ### triangle.py
 
 - area(a, h)
 
 Description: calculates area of a triangle with given side=a and height=h.
 
+```
 Example:
 
 from geometric_lib import circle
@@ -123,14 +124,15 @@ h = 2.0
 
 print(area(a, h))
 
-'1.0'
-
+>>>'1.0'
+```
 - perimeter(a)
 
 Description: calculates perimeter of a triangle with given sides=a, b, c.
 
 Example:
 
+```
 from geometric_lib import circle
 
 a = 1.0
@@ -139,7 +141,8 @@ c = 3.0
 
 print(perimeter(a, b, c))
 
-'6.0'
+>>> '6.0'
+```
 
 ## Commits History 
 
