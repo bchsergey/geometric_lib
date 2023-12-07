@@ -26,7 +26,7 @@ Description: calculates area of a circle with giving radius=r.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 r = 1.0
 print(area(r))
@@ -39,7 +39,7 @@ Description: calculates perimeter of a circle with giving radius=r.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 r = 1.0
 print(perimeter(r))
@@ -54,7 +54,7 @@ Description: calculates area of a circle with given length=a and width=b.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 b = 2.0
@@ -69,7 +69,7 @@ Description: calculates perimeter of a circle with given length=a and width=b.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 b = 2.0
@@ -86,7 +86,7 @@ Description: calculates area of a circle with given side=a.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 
@@ -100,7 +100,7 @@ Description: calculates perimeter of a circle with given side=a.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 
@@ -116,7 +116,7 @@ Description: calculates area of a triangle with given side=a and height=h.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 h = 2.0
@@ -131,7 +131,7 @@ Description: calculates perimeter of a triangle with given sides=a, b, c.
 
 Example:
 
->>>from geometric_lib import circle
+from geometric_lib import circle
 
 a = 1.0
 b = 2.0
