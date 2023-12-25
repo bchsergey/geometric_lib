@@ -9,7 +9,7 @@ def area(a, h):
 			area (float) : area of triangle
 	'''
 	
-    return a * h / 2
+	return a * h / 2
 
 def perimeter(a, b, c):
 	'''takes sides a, b, c, returns perimeter of a square with given sides
@@ -22,7 +22,7 @@ def perimeter(a, b, c):
 		Return value:
 			perimeter (float) : area of triangle
 	'''
-	
-    return a + b + c
+
+	return a + b + c
 
 

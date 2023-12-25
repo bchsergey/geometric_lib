@@ -7,8 +7,8 @@ def area(a):
 		Return value:
 			area (float) : area of a square
 	'''
-	
-    return a * a
+
+	return a * a
 
 
 def perimeter(a):
@@ -21,4 +21,4 @@ def perimeter(a):
 			perimeter (float) : area of square
 	'''
 	
-    return 4 * a
+	return 4 * a
