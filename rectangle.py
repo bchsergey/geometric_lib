@@ -9,7 +9,7 @@ def area(a, b):
 			area (float) : area of rectangle
 	'''
 	
-	if a < 0:
+	if a < 0 or b < 0:
 		raise TypeError
 	
 	return a * b
@@ -25,4 +25,10 @@ def perimeter(a, b):
 			perimeter (float) : area of rectangle
 	'''
 	
+	if a < 0 or b < 0:
+		raise TypeError
+		
+	if a == 0 or b == 0:
+		return 0
+		
 	return a + b + a + b

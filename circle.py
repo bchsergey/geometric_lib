@@ -11,6 +11,9 @@ def area(r):
 			area (float) : area of a circle
 	'''
 	
+	if r < 0:
+		raise TypeError
+		
 	return math.pi * r * r
 
 
@@ -24,5 +27,8 @@ def perimeter(r):
 			area (float) : area of a circle
 	'''
 	
+	if r < 0:
+		raise TypeError
+		
 	return 2 * math.pi * r
 
