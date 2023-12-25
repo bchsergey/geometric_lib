@@ -1,0 +1,46 @@
+name: CI/CD
+
+on: [push, pull_request]
+
+jobs:
+
+  Ubuntu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+         python-version: "3.12"
+         architecture: x64
+
+      - name: Run Tests
+        run: |
+          python -m unittest "tests/test_circle.py"
+          python -m unittest "tests/test_square.py"
+          python -m unittest "tests/test_rectangle.py"
+          python -m unittest "tests/test_triangle.py"
+
+
+  Windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+         python-version: "3.12"
+         architecture: x64
+
+      - name: Run tests
+        run: |
+          python -m unittest "tests/test_circle.py"
+          python -m unittest "tests/test_square.py"
+          python -m unittest "tests/test_rectangle.py"
+          python -m unittest "tests/test_triangle.py"
