@@ -146,34 +146,66 @@ print(perimeter(a, b, c))
 
 ## Commits History 
 
-- commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:54:08 2021 +0300
+- commit cbaa0bfad9f003f62ef708f362d33bfd8b9a1a05 (HEAD -> tests_264984)
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Mon Dec 25 09:51:41 2023 +0300
 
-    L-03: Circle and square added
-    
-- commit d078c8d9ee6155f3cb0e577d28d337b791de28e2
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:55:29 2021 +0300
+    fix: fix geometry function behaviour with incorrect input values
 
-    L-03: Docs added
-    
+- commit 6e70dfa0c9dfdbfdf5873590b8e30c685f5afdb0
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Mon Dec 25 06:17:16 2023 +0300
+
+    test: add geometry tests
+
+- commit 6524e2e543fc3b55e832bbc2eeb57af0a79f4eea (origin/documentation_264984, documentation_264984)
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Dec 7 09:34:48 2023 +0300
+
+    fix: fix documentation code format
+
+- commit e241fab9aa47fe0ae0163f8c8ee9a838aaa0a160
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Dec 7 09:29:01 2023 +0300
+
+    fix: fix documentation format in README.md
+
+- commit 2d20b273528274eef26839f0655faf71cd3ca303
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Dec 7 09:13:41 2023 +0300
+
+    docs: update project documentation in docs/README.md
+
+- commit 403313bea6e45f9cf9a8bfaaee86253d9ba056ea
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Dec 7 09:07:53 2023 +0300
+
+    docs: add documentation to geometry functions
+
+- commit d10f7713186d885fcbb6423c07820b0c59fe4ad1 (origin/new_features_264984)
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Dec 7 05:25:47 2023 +0300
+
+    fix: fix rectangle perimeter calculation / add triangle geometry
+
 - commit 2d81844c2319991446be6f1c301cbf5f4c2f3e78
 Author: bcsergey <buchnewserg@yandex.ru>
 Date:   Thu Dec 7 05:20:31 2023 +0300
 
     feat: add rectangle geometry
-    
 
-- commit d10f7713186d885fcbb6423c07820b0c59fe4ad1 (origin/main, origin/documentation_264984, origin/HEAD, main)
-Author: bcsergey <buchnewserg@yandex.ru>
-Date:   Thu Dec 7 05:25:47 2023 +0300
+- commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main)
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
 
-    fix: fix rectangle perimeter calculation / add triangle geometry
-    
-- commit 67060640257e32fca02ecdc1797055d37043d5e3 (HEAD -> documentation_264984)
-Author: bcsergey <buchnewserg@yandex.ru>
-Date:   Thu Dec 7 09:07:53 2023 +0300
+    L-03: Docs added
+
+- commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
+
 
     docs: add documentation to geometry functions
 
