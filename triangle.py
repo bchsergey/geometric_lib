@@ -8,9 +8,6 @@ def area(a, h):
 		Return value:
 			area (float) : area of triangle
 	'''
-	
-	if a < 0 or h < 0:
-		raise TypeError
 		
 	return a * h / 2
 
@@ -25,12 +22,6 @@ def perimeter(a, b, c):
 		Return value:
 			perimeter (float) : area of triangle
 	'''
-	
-	if a < 0 or b < 0 or c < 0:
-		raise TypeError
-		
-	if a == 0 or b == 0 or c == 0:
-		return 0
 		
 	return a + b + c
 

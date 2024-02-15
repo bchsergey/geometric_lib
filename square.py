@@ -7,9 +7,6 @@ def area(a):
 		Return value:
 			area (float) : area of a square
 	'''
-
-	if a < 0:
-		raise TypeError
 		
 	return a * a
 
@@ -23,8 +20,5 @@ def perimeter(a):
 		Return value:
 			perimeter (float) : area of square
 	'''
-	
-	if a < 0:
-		raise TypeError
-		
+
 	return 4 * a
