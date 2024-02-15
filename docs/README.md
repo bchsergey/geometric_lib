@@ -145,6 +145,11 @@ print(perimeter(a, b, c))
 ```
 
 ## Commits History 
+- commit 604ed59778a341fd560959674c6e093585e7f114 (HEAD -> cicd_264984)
+Author: bcsergey <buchnewserg@yandex.ru>
+Date:   Thu Feb 15 15:36:25 2024 +0300
+
+    tests have been specified
 
 - commit cbaa0bfad9f003f62ef708f362d33bfd8b9a1a05 (HEAD -> tests_264984)
 Author: bcsergey <buchnewserg@yandex.ru>
@@ -208,4 +213,4 @@ Date:   Thu Mar 4 14:54:08 2021 +0300
 
 
     docs: add documentation to geometry functions
-
+    
